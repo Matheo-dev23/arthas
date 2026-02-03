@@ -64,6 +64,7 @@ public class ShellImpl implements Shell {
     private Job currentForegroundJob;
     private String prompt;
 
+    //TODO: Changement de pattern (strategy)
     public ShellImpl(ShellServer server, Term term, InternalCommandManager commandManager,
             Instrumentation instrumentation, long pid, JobControllerImpl jobController) {
         if (term instanceof TermImpl) {

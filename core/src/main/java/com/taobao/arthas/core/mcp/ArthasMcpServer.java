@@ -186,6 +186,8 @@ public class ArthasMcpServer {
                 .build();
     }
 
+
+    //TODO: re-factorisation en un if pour check les non nulls
     public void stop() {
         logger.info("Stopping Arthas MCP server...");
         try {

@@ -39,6 +39,7 @@ public final class BasicPrincipal implements Principal {
         return result;
     }
 
+    //TODO: ALORS LA JE COMPREND PAS SOUS QUELLE DROGUE IL ETAIT LE FREROT
     @Override
     public boolean equals(Object obj) {
         if (this == obj)

@@ -229,7 +229,7 @@ public class ObjectViewTest {
                         + TimeZone.getTimeZone("GMT+8").getRawOffset());
         ObjectView objectView = new ObjectView(d, 3);
         String expected = "@Date[2018-07-10 14:32:34,961]";
-        Assert.assertEquals(expected, objectView.draw());
+        Assert.assertEquals(expected, objectView.draw()); //TODO: ce test ne compile pas ComparisonFailure
     }
 
     @Test
